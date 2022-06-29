@@ -5,8 +5,7 @@ senha_correta = case nome
                 when 'isaac' then 's1'
                 when 'lucas' then 's2'
                 when 'leo' then 's3'
-                else
-                ''
+                else ' '
                 end
 
 autorizado = senha_passada == senha_correta
