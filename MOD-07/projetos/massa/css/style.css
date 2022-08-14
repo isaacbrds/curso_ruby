@@ -107,7 +107,36 @@ h1{
 }
 
 
+
+.members{
+  display: flex;
+  justify-content: space-between;
+}
+
+.member img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
 footer{
   background-color: #3788bf;
+}
+
+footer ul{
+  display: flex;
+  padding-top: 3rem;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer p.copyright{
+  padding: 3rem 0;
+  text-align: center;
+  color: #ffffdd;
 }
 
