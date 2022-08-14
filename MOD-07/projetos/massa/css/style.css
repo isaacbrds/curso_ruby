@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.logo img{
+  width: 211px;
+}
+
+.sign-in{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-in button{
+ border: none;
+ font-size: 1rem;
+}
+
+input[type=text],
+input[type=email], 
+input[type=password]{
+  width: 180px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   color: #444;
@@ -18,6 +48,12 @@ section{
  margin: auto;
  padding: 1rem;
 }
+
+.hero{
+  width: 60%;
+  margin: auto;
+}
+
 .intro p{
   margin: 1rem;
   font-size: 1.5rem;
@@ -32,7 +68,7 @@ section{
 .button{
   padding: 10px 25px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border-radius: 5px;
   margin-right: 5px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
