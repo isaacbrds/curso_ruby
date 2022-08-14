@@ -38,6 +38,12 @@ section{
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
+h1.titulo{
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .button:hover{
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
@@ -61,6 +67,45 @@ h1{
 .gray{
   background-color: #f7f7f7;
 }
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 150px;
+  width: 18%;
+
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.card.red{
+  background-color: #ec454e;
+}
+
+.card.blue{
+  background-color: #42b0f8;
+}
+
+.card.purple{
+  background-color: #9e65d5;
+}
+
+.card.yellow{
+  background-color: #f4a823;
+}
+
+.card.green{
+  background-color: #3cbfa1;
+}
+
 
 footer{
   background-color: #3788bf;
